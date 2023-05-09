@@ -22,6 +22,9 @@ import { ProductComponent } from './_components/product/product.component';
 import { PageNotFoundComponent } from './_components/page-not-found/page-not-found.component';
 import { getStorage, provideStorage } from '@angular/fire/storage';
 import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
+
 
 @NgModule({
   declarations: [
@@ -47,10 +50,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     provideAnalytics(() => getAnalytics()),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),
-    provideStorage(() => getStorage())
   ],
   providers: [
-    ScreenTrackingService,UserTrackingService
   ],
   bootstrap: [AppComponent]
 })
