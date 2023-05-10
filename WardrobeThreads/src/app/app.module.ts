@@ -50,6 +50,7 @@ import { MaterialModule } from './material/material.module';
     provideAnalytics(() => getAnalytics()),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),
+    BrowserAnimationsModule,
   ],
   providers: [
   ],
