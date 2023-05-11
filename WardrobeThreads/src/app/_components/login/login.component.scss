@@ -8,7 +8,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: linear-gradient(170deg,#343F3E, #505A5B);
+  background: linear-gradient(170deg,var(--white),var(--white));
   height: 100vh;
   overflow: hidden;
 }
