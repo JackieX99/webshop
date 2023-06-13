@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "WardrobeThreads": {
+    "GlamCase": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
